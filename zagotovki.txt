@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+    DocumentRoot "\htdocs\coolyii\frontend\web"
+    ServerName coolyii.local
+    <Directory "\htdocs\coolyii\frontend\web">
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>    
+</VirtualHost>
+
+C:\Windows\System32\drivers\etc\hosts : добавить строки
+127.0.0.1       coolyii.local
+127.0.0.1       coolyii.admin
